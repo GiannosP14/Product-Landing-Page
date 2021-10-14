@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 125, 104);
+  padding: 15 20 0 20;
+  margin: 10 40 30 40;
+  position: relative;
+
+}
+
+
+.menu-area li a {
+  text-decoration: none;
+}
+
+
+nav {
+  position: sticky;
+  top: -1;
+  height: 100px;
+  background-color: white;
+border-radius: 10px;
+}
+
+.logo {
+  width: 120;
+  float: left;
+  padding: 30 20 2 2;
+  margin: -30 200 3 40;
+  position: relative;
+  
+
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: rgb(5, 5, 5);
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: block;
+  padding: 30 20 0 40;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+  z-index: 140;
+}
+.menu-area a:hover {
+  background: rgb(241, 125, 104);
+  color: #fff;
+  padding-top: 10;
+  border-radius: 50px;
+  
+}
+
+
+
+#return-img{
+
+  width: 40;
+}
+
+#premiumcars-img{
+  width: 50;
+}
+
+#shipping-img{
+  width: 40;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+ 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+#ferrari{
+  width: auto;
+  height: auto;
+}
+
+#porsche{
+  width: auto;
+  height: auto;
+}
+
+#tesla{
+  width: auto;
+  height: auto;
+}
+
+.row{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  width: 20%;
+  padding: 0.75rem;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  }
+
+
+
